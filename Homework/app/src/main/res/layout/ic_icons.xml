@@ -23,7 +23,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/iconheight"
                 android:src="@drawable/ic_billion"
-                android:layout_gravity="center"
                 />
 
             <TextView
@@ -55,7 +54,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/iconheight"
                 android:src="@drawable/ic_rating"
-                android:layout_gravity="center"
                 />
 
             <RatingBar

@@ -26,8 +26,6 @@
             >
             <RatingBar
                 android:id="@+id/finalrating"
-                android:scaleX="1"
-                android:scaleY="1"
                 style="?android:attr/ratingBarStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

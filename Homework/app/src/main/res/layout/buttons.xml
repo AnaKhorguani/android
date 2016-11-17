@@ -25,9 +25,7 @@
             android:textColor="@color/uninstall"
             android:textSize="@dimen/buttontext"
             android:background="@drawable/uninstallbuttonshape"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/ic_maps"
-            android:layout_alignStart="@+id/ic_maps">
+            >
         </Button>
 
         <LinearLayout
@@ -45,9 +43,7 @@
             android:textColor="@color/open"
             android:textSize="@dimen/buttontext"
             android:background="@drawable/openbuttonshape"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true">
+            >
         </Button>
 
         <LinearLayout

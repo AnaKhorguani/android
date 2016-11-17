@@ -54,7 +54,6 @@
     <style name="progressbar">
         <item name="android:layout_height">@dimen/ratinbar_height</item>
         <item name="android:background">@drawable/ratingbar</item>
-
     </style>
 
 </resources>
