@@ -85,15 +85,15 @@ public class ScrollingActivity extends AppCompatActivity {
         double starnum= Double.parseDouble(st);
 
         RatingBar iconsratingBar = ((RatingBar) iconlayout.findViewById(R.id.iconsratingbar));
-        LayerDrawable iconsstars = (LayerDrawable) iconsratingBar.getProgressDrawable();
         iconsratingBar.setRating((float) starnum);
-        iconsstars.getDrawable(2).setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
+        //LayerDrawable iconsstars = (LayerDrawable) iconsratingBar.getProgressDrawable();
+        //iconsstars.getDrawable(2).setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
 
         View ratinglayout=findViewById(R.id.rating);
         RatingBar bar=(RatingBar) ratinglayout.findViewById(R.id.finalrating);
-        LayerDrawable ratestar=(LayerDrawable) bar.getProgressDrawable();
         bar.setRating((float) starnum);
-        ratestar.getDrawable(2).setColorFilter(Color.DKGRAY, PorterDuff.Mode.SRC_ATOP);
+        // LayerDrawable ratestar=(LayerDrawable) bar.getProgressDrawable();
+        // ratestar.getDrawable(2).setColorFilter(Color.DKGRAY, PorterDuff.Mode.SRC_ATOP);
 
     }
 
