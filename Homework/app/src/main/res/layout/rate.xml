@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/personalopinion"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/logo"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="@color/Textcollor"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate"
+            android:textColor="@color/ratecolor"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:scaleX="1"
+            android:scaleY="1"
+            style="?android:attr/ratingBarStyle"
+            android:progressTint="@color/greencollor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review"
+            android:textColor="@color/ratecolor"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>

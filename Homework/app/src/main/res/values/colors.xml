@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#010003</color>
+    <color name="colorPrimaryDark">#010003</color>
+    <color name="colorAccent">#010003</color>
+
+    <color name="Linecollor">#ded9c6</color>
+    <color name="Textcollor">#010003</color>
+    <color name="greencollor">#046602</color>
+
+    <color name="whitecolor">#FAFAFA</color>
+
+    <color name="uninstall">#3AD145</color>
+    <color name="open">#fffbe7</color>
+
+    <color name="ratecolor">#5e5c5b</color>
+    <color name="ratingbarcolor">#5c5a59</color>
+
+</resources>

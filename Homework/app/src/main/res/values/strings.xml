@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="maps">Maps</string>
+    <string name="google">Google Inc.</string>
+    <string name="grade">3+</string>
+    <string name="uninstall">uninstall</string>
+    <string name="open">open</string>
+    <string name="download_number">1</string>
+    <string name="icon_stars" >4.3</string>
+    <string name="downloads">downloads</string>
+    <string name="travel">Travel &amp; Local</string>
+    <string name="similar">similar</string>
+    <string name="amount">5,493,032</string>
+    <string name="get_app">Get the latest Google Maps app</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="text">• Easily find hours and phone numbers for large department stores with the new department store
+        directoy in Google Maps. (US only)</string>
+    <string name="read_more">READ MORE</string>
+    <string name="username">Ana Khorguani</string>
+    <string name="rate">Rate this app</string>
+    <string name="review">Reviews are linked to your account and are public</string>
+    <string name="review_highlights">REVIEW HIGHLIGHTS</string>
+
+</resources>

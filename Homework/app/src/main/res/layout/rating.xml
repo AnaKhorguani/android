@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/rating"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/icon_stars"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="60sp"
+            android:textColor="@color/Textcollor"
+            android:gravity="bottom"
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            >
+            <RatingBar
+                android:id="@+id/finalrating"
+                android:scaleX="1"
+                android:scaleY="1"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:layout_marginTop="30dp"
+
+                />
+
+            <TextView
+                android:text="@string/amount"
+                android:layout_marginTop="55dp"
+                android:layout_width="75dp"
+                android:layout_height="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/ratingbarcolor"/>
+
+            <ImageView
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="70dp"
+                android:layout_width="30dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ic_person"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                style="@style/progressbar"
+                android:backgroundTint="#5fcf1e"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:layout_width="70dp"
+                style="@style/progressbar"
+                android:backgroundTint="#bbed15"
+                android:layout_marginTop="31dp"/>
+            <ImageView
+                android:layout_width="40dp"
+                style="@style/progressbar"
+                android:backgroundTint="#fff316"
+                android:layout_marginTop="42dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                style="@style/progressbar"
+                android:backgroundTint="#f28e15"
+                android:layout_marginTop="53dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                style="@style/progressbar"
+                android:backgroundTint="#f0231f"
+                android:layout_marginTop="64dp"/>
+
+        </FrameLayout>
+
+</LinearLayout>
+
+

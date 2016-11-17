@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ic_icons"
+        android:orientation="horizontal"
+        android:weightSum="26.5"
+        >
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="@dimen/zero"
+        android:layout_weight="0.5">
+    </LinearLayout>
+
+    <FrameLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="6">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/iconheight"
+                android:src="@drawable/ic_billion"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Textcollor"
+                android:textSize="@dimen/icontext"
+                android:text="@string/download_number"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/zero"
+            android:layout_weight="0.5">
+        </LinearLayout>
+
+        <FrameLayout
+
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="6">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/iconheight"
+                android:src="@drawable/ic_rating"
+                android:layout_gravity="center"
+                />
+
+            <RatingBar
+                android:id="@+id/iconsratingbar"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:layout_marginTop="50dp" />
+
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whitecolor"
+                android:textSize="@dimen/icontext"
+                android:text="@string/icon_stars"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/zero"
+            android:layout_weight="0.5">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_weight="6"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/iconheight"
+            android:src="@drawable/ic_travel"
+            android:id="@+id/travel"
+             />
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/zero"
+            android:layout_weight="0.5">
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="6"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/iconheight"
+            android:src="@drawable/ic_similar"
+            android:id="@+id/similar"
+             />
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/zero"
+            android:layout_weight="0.5">
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/google_map"
+    >
+
+    <ImageView
+        android:id="@+id/ic_maps"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_maps"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Maps"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignTop="@+id/ic_maps"
+        android:layout_toRightOf="@+id/ic_maps"
+        android:layout_toEndOf="@+id/ic_maps">
+
+        <TextView
+            style="@style/MapsText"
+            android:text="@string/maps"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MapsText"
+                android:text="@string/google"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+        <TextView
+            style="@style/MapsText"
+            android:text="@string/grade"
+            android:background="@drawable/gradebuttonshape"
+            />
+    </LinearLayout>
+
+    </RelativeLayout>
+
