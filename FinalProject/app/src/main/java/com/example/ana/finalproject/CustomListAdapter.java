@@ -53,9 +53,13 @@ public class CustomListAdapter extends  BaseAdapter {//implements Filterable {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // TODO Auto-generated method stub
+
+        Friend rowItem = (Friend) getItem(position);
+
         ViewHolder holder = null;
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.list_item, null);
+            if(rowItem.color.equals("#CDDC39")) convertView.setBackgroundColor(Color.parseColor(rowItem.color));
             holder = new ViewHolder();
             holder.txtTitle = (TextView) convertView.findViewById(R.id.displayName);
             holder.imageView = (ImageView) convertView.findViewById(R.id.photo);
@@ -65,13 +69,9 @@ public class CustomListAdapter extends  BaseAdapter {//implements Filterable {
             holder = (ViewHolder) convertView.getTag();
         }
 
-
-        Friend rowItem = (Friend) getItem(position);
-
-
         holder.txtTitle.setText(rowItem.getName());
         holder.imageView.setImageBitmap(rowItem.getAvatar());
-        if(rowItem.color.equals("#CDDC39")) convertView.setBackgroundColor(Color.parseColor(rowItem.color));
+
         return convertView;
     }
 

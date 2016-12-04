@@ -46,10 +46,12 @@ public class recentFragment extends Fragment {
 
         List<Friend> friendslist = db.getAllFriends();
 
-        messagelist=cdb.getRecentMessages(10, context, friendslist);
+        if(!friendslist.isEmpty()) {
+            messagelist = cdb.getRecentMessages(10, context, friendslist);
 
-        recentadapter=new ChatListAdapter(context,  messagelist);
-        recentlv.setAdapter(recentadapter);
+            recentadapter = new ChatListAdapter(context, messagelist);
+            recentlv.setAdapter(recentadapter);
+        }
         return rootView;
     }
 
