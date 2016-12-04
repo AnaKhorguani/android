@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="message">Write a message</string>
+    <string name="send">send</string>
+    <string name="back">back</string>
+    <string name="info">Ana Khorguani 799 997</string>
+    <string name="status_bar">Status bar notifications</string>
+</resources>
